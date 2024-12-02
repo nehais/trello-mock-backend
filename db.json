@@ -2,7 +2,36 @@
   "workspaces": [
     {
       "id": 1,
-      "title": "Nest & Rest"
+      "title": "Nest & Rest",
+      "tasks": [
+        {
+          "taskId": 1,
+          "taskTitle": "To Do",
+          "activities": [
+            {
+              "taskActId": 1,
+              "name": "Create Repo in Git",
+              "desc": "Create repo & commit the project. Add Members"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "taskTitle": "In Progress",
+          "activities": [
+            {
+              "taskActId": 1,
+              "name": "Create a new React Vite app",
+              "desc": "Use React to "
+            },
+            {
+              "taskActId": 2,
+              "name": "Select app name & logo",
+              "desc": "Descide on App name & checkin the logo"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 2,
