@@ -21,7 +21,7 @@
           "activities": [
             {
               "taskActId": 1,
-              "name": "Create a new React Vite app",
+              "name": "Create a new React Vite app using a dummy name we are trying to make it long",
               "desc": "Use React to "
             },
             {
@@ -35,7 +35,36 @@
     },
     {
       "id": 2,
-      "title": "Loot Scoot & Boot"
+      "title": "Loot Scoot & Boot",
+      "tasks": [
+        {
+          "taskId": 1,
+          "taskTitle": "To Do",
+          "activities": [
+            {
+              "taskActId": 1,
+              "name": "Create Repo in Git",
+              "desc": "Create repo & commit the project. Add Members"
+            },
+            {
+              "taskActId": 2,
+              "name": "Select app name & logo",
+              "desc": "Descide on App name & checkin the logo"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "taskTitle": "In Progress",
+          "activities": [
+            {
+              "taskActId": 1,
+              "name": "Create a new React Vite app",
+              "desc": "Use React to "
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 3,
